@@ -251,7 +251,7 @@ class ActivationEnergy:
             MetalOxide.MixedPotential = -0.953 #V adjustable 
             ButlerVolmerConstant=[(n*Beta)*x for x in ElectrochemicalEffectConstant] #Beta*n*F/RT 
             print MetalOxide.EquilibriumPotentialFe
-            ActivationEnergyFe 
+            #ActivationEnergyFe 
             
 InletEnergies=ActivationEnergy(InletParameters) 
 OutletEnergies=ActivationEnergy(OutletParameters)
