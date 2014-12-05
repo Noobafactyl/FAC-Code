@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+#made some changes here 
  
 FileName1 = open('GeneralParameters.txt','r') #Don't need to specify file path if docs are in the same folder as this .py file     
 Reader1 = list(csv.reader(FileName1, delimiter = ',')) #Assign file data to list, Reader[row][column], delimiter = comma 
