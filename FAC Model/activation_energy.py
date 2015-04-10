@@ -12,7 +12,7 @@ For hydrogen gas (H2), the mol/kg concentration is converted from mol/L to atm: 
 'In ActivationEnergy function: A^z+ + ze- -> D,   where A = e- acceptor and D = e- donor (Bockris & Reddy - Modern Electrochemistry)\
 If in terms of acceptor:  io = (Concentration_A*FkT/h)*exp(-ActivationEnergy/RT)*exp(-Eeqm*BnF/RT), \
 If in terms of donor: io =(Concentration_D*FkT/h)*exp(-ActivationEnergy/RT)*exp(Eeqm*(1-B)nF/RT),  B term is positive in second exponential\
-Concentration donor/acceptor is [mol/cm^2] (raise to the 2/3)'
+Concentration donor/acceptor is [mol/cm^2] (raise to the 2/3 bc of stoich)'
 
 
 import numpy as np
