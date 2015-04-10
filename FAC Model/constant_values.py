@@ -1,3 +1,4 @@
+'recovery save'
 #Constants 
 Beta= 0.5 #Symmetry coefficient
 kH2=0.00078 #Henry#s law constant for H2 @ 298.15 K [mol/L*atm]

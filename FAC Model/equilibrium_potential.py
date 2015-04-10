@@ -1,7 +1,7 @@
 import numpy as np
 import constant_values as cv
 import parameter_input as pi
-'test' 
+'recovery save'
 class EquilibriumPotential():
         def __init__(self,Section, ConcentrationFeTotal, SaturationFe, gamma_1, gamma_2, ConcentrationNiTotal, SaturationNi, ConcentrationFeOH2,\
                           ConcentrationNiOH2, ConcentrationH, ConcentrationH2, ConcentrationFe2, ConcentrationNi2):

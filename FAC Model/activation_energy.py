@@ -14,7 +14,7 @@ If in terms of acceptor:  io = (Concentration_A*FkT/h)*exp(-ActivationEnergy/RT)
 If in terms of donor: io =(Concentration_D*FkT/h)*exp(-ActivationEnergy/RT)*exp(Eeqm*(1-B)nF/RT),  B term is positive in second exponential\
 Concentration donor/acceptor is [mol/cm^2] (raise to the 2/3 bc of stoich)'
 
-
+'recovery save'
 import numpy as np
 import constant_values as cv
 import parameter_input as pi

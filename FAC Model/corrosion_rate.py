@@ -4,7 +4,7 @@ import constant_values as cv
 import equilibrium_potential as ep
 import activation_energy as ae
 
-
+'recovery save'
 class CorrosionRate(ae.ActivationEnergy):
     def __init__(self,Section, ConcentrationFeTotal, ConcentrationNiTotal, SaturationFe, SaturationNi, ConcentrationH):
         ae.ActivationEnergy.__init__(self,Section)

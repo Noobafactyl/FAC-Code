@@ -4,7 +4,7 @@ import constant_values as cv
 import parameter_input as pi
 import equilibrium_potential as ep
 import corrosion_rate as cr
-
+'recovery save'
 class Concentrations(cr.CorrosionRate): #if use MetalOxide, this will already include SolutionOxide (don't need to inherit both) 
     def __init__(self,Section, ConcentrationFeTotal, SaturationFe, gamma_1, gamma_2, ConcentrationNiTotal, SaturationNi, \
                  ConcentrationFeOH2,ConcentrationNiOH2, ConcentrationH, ConcentrationH2):
